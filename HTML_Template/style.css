@@ -1,0 +1,75 @@
+body {
+  font-family: sans-serif;
+  background-color: ;
+}
+.card {
+  width: ;
+  background-color: ;
+  margin: ;
+  /* gợi ý margin mà 2 thuộc tính thì đầu tiên là trên dưới sau đó là trái phải ví dụ như "margin: 10px 20px;" nghĩa là cách trên dưới 10px và trái phải 20px */
+  border-radius: ;
+  text-align: ;
+  overflow: hidden;
+}
+.cover-image {
+  height: ;
+  background-color: ;
+}
+.avatar {
+  width: ;
+  height: ;
+  border-radius: ;
+  border: ;
+  /* border có 3 thuộc tính "border: width style color" ví dụ như ta có thể điền là border: 10px solid red*/
+  margin-top: ;
+  /* Muốn cái hình nó đè lên trên background thì xài margin có thuộc tính là số âm thử coi */
+  display: ;
+}
+.name {
+  margin-top: ;
+  color: ;
+}
+
+.job {
+  color: ;
+  margin-bottom: ;
+}
+
+.skills-list ul {
+  padding: ;
+  /* Để vô để xóa cái padding mặc định của cái thẻ ul */
+}
+
+.skills-list li {
+  display: ;
+  background-color: ;
+  color: ;
+  padding: ;
+  /* Cảm thấy xài 2 3 4 thuộc tính cùng lúc khó thì có thể chia ra padding-top, padding-left, padding-right, padding-bottom */
+  margin: ;
+  border-radius: ;
+  font-size: ;
+}
+
+.social-links a {
+  display: ;
+  text-decoration: ;
+  color: ;
+  background-color: ;
+  width: ;
+  padding: ;
+  border-radius: ;
+  margin: ;
+}
+
+.btn-contact {
+  background-color: ;
+  color: ;
+  border: ;
+  padding: ;
+  border-radius: ;
+  margin-bottom: ;
+  cursor: pointer;
+  margin-top: ;
+}
+

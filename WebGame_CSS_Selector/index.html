@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Diner - CLB IT</title>
+    <script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/levels.js" type="text/javascript" charset="utf-8"></script>
+    <script
+      src="js/restaurant.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
+    <script src="js/jquery.mCustomScrollbar.min.js"></script>
+
+    <link rel="icon" type="image/png" href="./images/logo.jpg" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Exo+2:200,400,600,400italic,600italic"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Satisfy"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="css/jquery.mCustomScrollbar.css"
+      type="text/css"
+      media="screen"
+      title="no title"
+      charset="utf-8"
+    />
+    <link
+      rel="stylesheet"
+      href="css/style.css"
+      type="text/css"
+      media="screen"
+      title="no title"
+      charset="utf-8"
+    />
+  </head>
+
+  <body>
+    <div class="left-col">
+      <header
+        style="display: flex; justify-content: space-between; width: 100%"
+      >
+        <a
+          href="https://www.facebook.com/ctuit.club/"
+          style="
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: white;
+            text-decoration: none;
+          "
+        >
+          <div class="" style="width: 32px; height: 32px">
+            <img
+              src="./images/logo.jpg"
+              alt=""
+              style="width: 100%; border-radius: 999999px"
+            />
+          </div>
+          Câu lạc bộ Tin Học ĐHCT
+        </a>
+        <a
+          href="https://ctu.edu.vn"
+          style="
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: white;
+            text-decoration: none;
+          "
+        >
+          <div class="" style="width: 48px; height: 48px">
+            <img
+              src="https://www.ctu.edu.vn/images/upload/logo.png"
+              alt=""
+              style="width: 100%; border-radius: 999999px"
+            />
+          </div>
+        </a>
+      </header>
+
+      <h2 class="order"></h2>
+      <div class="game-wrapper">
+        <div class="table-wrapper">
+          <div class="table-surface"></div>
+          <div class="nametags"></div>
+          <div class="table"></div>
+        </div>
+        <div class="table-edge">
+          <div class="table-leg"></div>
+          <div class="table-leg"></div>
+        </div>
+      </div>
+
+      <div class="editor">
+        <div class="editor-pane">
+          <div class="input-header">
+            <div class="file-name">style.css</div>
+            CSS Editor
+          </div>
+          <div class="file-window css-view">
+            <div class="line-numbers">
+              1<br />2<br />3<br />4<br />5<br />6<br />7<br />8<br />9<br />10<br />11<br />12<br />13<br />14<br />15<br />16<br />17<br />18<br />19<br />20
+            </div>
+            <input
+              class="input-strobe"
+              type="text"
+              placeholder="Viết bộ chọn css tại đây"
+            /><span class="plus">+</span>
+            <div class="enter-button">enter</div>
+          </div>
+        </div>
+
+        <div class="editor-pane html-view">
+          <div class="input-header">
+            <div class="file-name">table.html</div>
+            HTML Viewer
+          </div>
+          <div class="file-window">
+            <div class="line-numbers">
+              1<br />2<br />3<br />4<br />5<br />6<br />7<br />8<br />9<br />10<br />11<br />12<br />13<br />14<br />15<br />16<br />17<br />18<br />19<br />20
+            </div>
+            <div class="markup"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /left-col -->
+
+    <div class="right-col">
+      <div class="help-wrapper">
+        <h1 class="level-header">
+          <span class="level-text"></span>
+          <span class="checkmark"></span>
+        </h1>
+
+        <div class="level-nav">
+          <a class="previous" href="#"></a>
+          <a class="next" href="#"></a>
+        </div>
+
+        <div class="level-progress"><div class="progress"></div></div>
+
+        <div class="display-help">
+          <h3 class="selector-name"></h3>
+          <h2 class="title"></h2>
+          <h3 class="syntax"></h3>
+          <div class="hint"></div>
+          <h4 class="examples-title">Ví dụ</h4>
+          <div class="examples"></div>
+        </div>
+      </div>
+
+      <div class="level-menu">
+        <h2>Chọn cấp độ</h2>
+        <div class="levels"><!-- level links are inserted here--></div>
+        <a class="reset-progress" href="#">Tải lại tiến trình</a>
+      </div>
+
+      <div class="level-menu-toggle-wrapper">
+        <div class="level-menu-toggle"></div>
+      </div>
+    </div>
+  </body>
+</html>

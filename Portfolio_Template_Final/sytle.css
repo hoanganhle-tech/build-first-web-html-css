@@ -1,0 +1,148 @@
+/* =====================================================
+   RESET & BASE
+===================================================== */
+* {
+  /* reset margin mặc định */
+  /* reset padding mặc định */
+  /* dùng box-sizing để không vỡ layout */
+  /* cài đặt font Poppins cho toàn website */
+}
+
+a {
+  /* bỏ gạch chân link */
+  /* màu chữ link */
+}
+
+.main-content {
+  /* chiều rộng nội dung */
+  /* căn giữa nội dung */
+}
+
+.btn {
+  /* khoảng đệm nút */
+  /* màu nền nút */
+  /* bo tròn góc nút */
+}
+
+/* =====================================================
+   HEADER / NAVBAR
+===================================================== */
+.navbar {
+  /* hiển thị theo hàng ngang */
+  /* đẩy logo và menu ra hai bên */
+  /* căn giữa theo chiều dọc */
+  /* khoảng đệm navbar */
+  /* màu nền navbar */
+  /* bóng đổ navbar */
+}
+
+.navbar .logo {
+  /* kích thước chữ logo */
+  /* độ đậm chữ logo */
+  /* màu chữ logo */
+}
+
+.navbar .menu {
+  /* hiển thị menu theo hàng ngang */
+  /* khoảng cách giữa các item */
+  /* bỏ dấu chấm đầu dòng */
+}
+
+.navbar .menu .btn-contact {
+  /* khoảng đệm nút liên hệ */
+  /* màu chữ nút */
+  /* màu nền nút */
+  /* bo tròn nút */
+}
+
+/* =====================================================
+   HERO SECTION
+===================================================== */
+.hero {
+  /* màu nền hero */
+  /* khoảng đệm hero */
+}
+
+.hero .body {
+  /* layout flex */
+  /* giãn đều nội dung */
+}
+
+.hero .hero-text h4 {
+  /* kích thước chữ */
+}
+
+.hero .hero-text h1 {
+  /* kích thước tiêu đề chính */
+}
+
+.hero .hero-text p {
+  /* khoảng cách trên */
+  /* kích thước chữ */
+}
+
+.hero .hero-buttons {
+  /* khoảng cách trên */
+}
+
+.hero .hero-buttons .primary {
+  /* khoảng cách phải */
+  /* màu chữ */
+}
+
+.hero .hero-buttons .secondary {
+  /* màu nền */
+  /* viền */
+  /* màu chữ */
+}
+
+.hero .hero-image {
+  /* chiều rộng khung ảnh */
+  /* chiều cao khung ảnh */
+}
+
+.hero .hero-image img {
+  /* ảnh full khung */
+  /* bo tròn ảnh */
+  /* viền ảnh */
+}
+
+/* =====================================================
+   SKILLS SECTION
+===================================================== */
+.skills {
+  /* màu nền */
+  /* khoảng đệm */
+}
+
+.skills .body {
+  /* căn giữa nội dung */
+}
+
+.skills .section-title {
+  /* kích thước chữ */
+}
+
+.skills .skills-container {
+  /* khoảng cách trên */
+  /* layout flex */
+  /* giãn đều các skill */
+}
+
+.skills .skill-card {
+  /* màu nền */
+  /* chiều rộng */
+  /* khoảng đệm */
+  /* bo góc */
+  /* viền nhấn mạnh phía dưới */
+}
+
+/* =====================================================
+   FOOTER
+===================================================== */
+footer {
+  /* màu nền footer */
+  /* khoảng đệm */
+  /* căn giữa chữ */
+  /* kích thước chữ */
+}

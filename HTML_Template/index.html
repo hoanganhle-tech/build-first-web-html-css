@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card Workshop</title>
+  </head>
+
+  <body>
+    <!--
+      Khung card chính
+      Mục đích: component hồ sơ có thể tái sử dụng
+      Quy tắc: giữ nguyên tên class là "card"
+    -->
+    <div class="card">
+      <!--
+        Phần header
+        Mục đích: nhận diện trực quan (ảnh bìa + avatar)
+      -->
+      <div class="card-header">
+        <!--
+          Ảnh nền cover
+          Mục đích: trang trí (sử dụng background trong CSS)
+        -->
+        <div class="cover-image"></div>
+
+        <!--
+          Ảnh đại diện
+          Gợi ý: thêm ảnh bằng thẻ <img>
+          Quy tắc: phải có class "avatar"
+        -->
+        <!-- TODO -->
+         <img src="./images/avatar.png" alt="">
+      </div>
+
+      <!--
+        Phần body
+        Mục đích: chứa thông tin chính của hồ sơ
+      -->
+      <div class="card-body">
+        <!--
+          Tên
+          Gợi ý: dùng thẻ heading và class "name"
+        -->
+        <!-- TODO -->
+
+        <!--
+          Vai trò / chức danh
+          Gợi ý: dùng thẻ văn bản và class "job"
+        -->
+        <!-- TODO -->
+
+        <!--
+          Mô tả ngắn (bio)
+          Gợi ý: thẻ đoạn văn với class "bio"
+        -->
+        <!-- TODO -->
+
+        <!--
+          Danh sách kỹ năng
+          Mục đích: hiển thị kỹ năng theo cấu trúc
+          Gợi ý: tiêu đề + danh sách (<ul> & <li>)
+        -->
+        <div class="skills-list">
+          <!-- TODO -->
+        </div>
+
+        <!--
+          Liên kết mạng xã hội
+          Mục đích: dẫn tới các hồ sơ bên ngoài
+          Gợi ý: dùng thẻ <a> (liên kết) với class "social-link"
+        -->
+        <div class="social-links">
+          <!-- TODO -->
+        </div>
+
+        <!--
+          Nút hành động (CTA)
+          Mục đích: tương tác liên hệ
+          Gợi ý: phần tử có thể click với class "btn-contact"
+        -->
+          <!-- TODO -->
+      </div>
+    </div>
+  </body>
+</html>
